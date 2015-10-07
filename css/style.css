@@ -12,8 +12,7 @@
 
 h1, h2 {
     /*font-family: "museo-1", "museo-2", "Lucida Grande", "Lucida Sans Unicode", sans-serif;*/
-/*font-family:  "Trebuchet MS", Helvetica, sans-serif;*/
-font-family: 'Monda', sans-serif;
+    font-family: 'Monda', sans-serif;
 }
 
 .page.support-howto {
@@ -168,7 +167,7 @@ font-family: 'Monda', sans-serif;
 
 .page.support-howto .column-section .title{
     clear: both;
-    margin-bottom: -45px;
+    margin-bottom: -75px;
 }
 
 
@@ -764,8 +763,6 @@ body>.nav .nav-wrapper {
     margin: 0 auto;
     max-width: 960px;
     font-size: 18px;
-    padding-top: 4px;
-
     min-width: 959px;
 }
 body>.nav .nav-inner-wrapper {
@@ -838,17 +835,20 @@ body>.nav .menu-button.search form input::-webkit-input-placeholder, body>.nav .
     visibility: hidden;
 }
 body>.nav .main-nav>li>a, body>.nav .logged-out-actions>li>a, body>.nav .userbox h2, body>.nav .menu-button a {
+    
     border-top: 4px solid transparent;
     display: block;
     height: 36px;
     vertical-align: middle;
-    padding: 2px 16px 0 16px;
+    padding: 4px 16px 0 16px;
     color: #efefef;
     /*font-family: "ff-meta-web-pro-1", "ff-meta-web-pro-2", "Lucida Grande", "Lucida Sans Unicode", sans-serif;*/
     font-family: 'Monda', sans-serif;
     font-weight: 500;
     text-decoration: none;
 }
+    
+
 .wf-loading body>.nav .main-nav>li>a, .wf-loading body>.nav .logged-out-actions>li>a, .wf-loading body>.nav .userbox h2, .wf-loading body>.nav .menu-button a {
     visibility: hidden;
 }
