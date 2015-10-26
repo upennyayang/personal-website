@@ -15,6 +15,18 @@ body {
  
 }
 
+/* customized */ 
+.column-left-compact {
+    float: left;
+    width:  38%;
+}
+
+.column-right-compact {
+    float: left;
+    width: 50%;
+}
+
+
 a.link {
     display: inline-block;
     width: 200px;
@@ -90,14 +102,15 @@ iframe[src="about:blank"] {
 }
 
 .page h1 {
-    font-size: 28px;
+    font-size: 24px;
     line-height: 1.2;
     /*letter-spacing: 1px;*/
     word-spacing: 3px;
 }
 
 .page h1 .name{
-    font-size: 30px;
+    font-size: 28px;
+    font-weight: bold;
     /*letter-spacing: 1px;*/
 }
 
@@ -466,7 +479,10 @@ h1 a {
     color: #000;
 }
 h2 {
-    font-size: 18px;
+    font-size: 16px;
+}
+h2.small {
+    font-size: 10px;
 }
 h3 {
     font-size: 11px;
@@ -590,7 +606,8 @@ form.simple-form input.submit, form.simple-form input[type="submit"] {
 .page-content .page-header {
     margin: 0 -47px;
     border-bottom: 1px solid #e5e5e5;
-    padding: 77px 45px 5px;
+    /*padding: 77px 45px 5px;*/
+    padding: 75px 75px;
 }
 .page-content .page-header .flashes {
     margin: -17px -45px 17px;
@@ -817,6 +834,7 @@ body>.nav .logged-out-actions li {
 body>.nav .menu-button {
     float: right;
     line-height: 39px;
+    font-size: 16px;
 }
 body>.nav .menu-button.search form {
     padding: 0 16px 0 7px;
