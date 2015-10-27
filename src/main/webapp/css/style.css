@@ -11,8 +11,8 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     background: transparent;
 }
 
-body {
- 
+.intro {
+    margin: 50px 0;
 }
 
 /* customized */ 
@@ -25,7 +25,9 @@ body {
     float: left;
     width: 50%;
 }
-
+.column-section {
+    /*border-bottom: 1px solid #e5e5e5;*/
+}
 
 a.link {
     display: inline-block;
@@ -81,17 +83,16 @@ iframe[src="about:blank"] {
 }
 
 .page {
-    width: 960px;
+    width: 980px;
     margin: 0 auto;
     position: relative;
     z-index: 0;
     /*padding-bottom: 590px;*/
     padding-bottom: 00px;
-    padding-top: 43px;
+    padding-top: 55px;
     background: url(img/aut11/bg-main.png) repeat-y 0 0;
 }
 .page h2 {
-    border-bottom: 1px solid #e5e5e5;
     margin-top: 20px;
 }
 .page h3 {
@@ -221,7 +222,8 @@ iframe[src="about:blank"] {
 
 .page .column-section {
     clear: both;
-    margin-bottom: 95px;
+    margin-top: 30px;
+    margin-bottom:60px;
 }
 
 .page .column-section .title{
@@ -592,22 +594,22 @@ form.simple-form input.submit, form.simple-form input[type="submit"] {
     height: auto !important;
     position: relative;
     width: 100%}
+
 .page-content {
     position: relative;
     display: inline-block;
     vertical-align: top;
     border: solid #e5e5e5;
     background: #fff;
-    padding: 0 47px 40px 47px;
+    padding: 55px;
     border-width: 0 1px;
     width: 584px;
     min-height: 100px;
 }
 .page-content .page-header {
-    margin: 0 -47px;
+
     border-bottom: 1px solid #e5e5e5;
-    /*padding: 77px 45px 5px;*/
-    padding: 75px 75px;
+    padding: 25px 0px;
 }
 .page-content .page-header .flashes {
     margin: -17px -45px 17px;
