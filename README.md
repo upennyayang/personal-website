@@ -1,6 +1,6 @@
 ## About
 
-  This repository contains my personal website using GAE.
+  This repository contains my personal website.
 
 ## First time Setup
 
@@ -9,7 +9,7 @@
 
 ## Deploy
 
-  ```
-  mvn clean install
-  appcfg.sh -A yayang-tian update target/appengine-try-java-1.0
-  ```
+```
+mvn clean install
+appcfg.sh -A yayang-tian update target/appengine-try-java-1.0
+```
